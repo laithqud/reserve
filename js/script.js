@@ -57,6 +57,8 @@ function saveData() {
         document.getElementById("to").value = "";
 
         console.log("Saved Reservations: ", reservation);
+
+        // window.location.href = "index.html";
     }
 }
 
