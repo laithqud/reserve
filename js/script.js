@@ -60,17 +60,16 @@ function saveData() {
     }
 }
 
-function checkData() {
-    let storedData = localStorage.getItem("reservation");
-    if (storedData) {
-        let reservation = JSON.parse(storedData);
-        console.log("Saved Reservations: ", reservation);
-    } else {
-        console.log("No reservations found in local storage.");
-    }
-}
+// function checkData() {
+//     let storedData = localStorage.getItem("reservation");
+//     if (storedData) {
+//         let reservation = JSON.parse(storedData);
+//         console.log("Saved Reservations: ", reservation);
+//     } else {
+//         console.log("No reservations found in local storage.");
+//     }
+// }
 
-checkData();
+// checkData();
 
-// localStorage.clear();
 

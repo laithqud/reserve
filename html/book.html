@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <style>
+        .h2Design{
+            backdrop-filter: blur(10px);
+            width: fit-content;
+        }
         #book-div {
             position: absolute;
             z-index: 10;
@@ -64,13 +68,13 @@
 </head>
 <body>
     <div id="container" class="container-fluid bg-secondary bg-opacity-25 d-flex flex-column pt-4 pb-4" style="height:700px ;">
-        <div id="img-div" class="container-fluid rounded-top" style="background-image: url('/images/dubai.PNG'); background-size: cover; height: 75%; object-fit: contain;">
-            <div class="container d-flex flex-column">
+        <div id="img-div" class="container-fluid rounded-top" style="background-image: url('/images/dobai.jpg'); background-size: cover; height: 75%; object-fit: contain;">
+            <div class="container d-flex flex-column gap-5">
                 <div class="container d-flex justify-content-between align-items-center pt-4">
-                    <a href="" style="text-decoration: none;"><img src="/images/logo.png" style="width: 100px; height: 50px;" alt=""></a>
+                    <a href="" style="text-decoration: none;"><img src="/images/logo.jpg" style="width: 100px; height: 50px;" alt=""></a>
                     <a href="" style="text-decoration: none;" class="text-white">Home</a>
                 </div>
-                <h2 class="text-white pt-5 ps-4">Fill your Information to Reserve your Room</h2>
+                <center><h2 class="text-light rounded fs-1 d-flex justify-content-center h2Design">Fill your Information to Reserve your Room</h2></center>
             </div>
         </div>
         <div id="info-div" class="container-fluid d-flex align-items-end rounded-bottom" style="background-color: #E4F9F8; height: 25%;">
@@ -105,7 +109,7 @@
 
     <a id="button1" onclick="saveData()" class="btn text-white rounded-pill d-flex justify-content-center align-items-center">Reserve</a>
 
-    <script src="js/script.js"></script>
+    <script src="/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
